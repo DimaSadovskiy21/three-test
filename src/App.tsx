@@ -5,7 +5,7 @@ import { Center, OrbitControls, useGLTF } from "@react-three/drei";
 import './App.css';
 
 function ToyModel() {
-  const gltf = useGLTF("/Untitled.glb");
+  const gltf = useGLTF("/three-test/Untitled.glb");
 
   return (
     <Center>
